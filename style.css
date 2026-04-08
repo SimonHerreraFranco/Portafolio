@@ -400,11 +400,7 @@ a:hover {
     border-radius: 8px;
     transition: all 0.2s ease;
 }
-.btn-download::before {
-    content: '↓';
-    margin-right: 8px;
-    font-weight: 800;
-}
+
 .btn-download:hover {
     background-color: var(--clr-accent-hover);
     transform: translateY(-2px);
@@ -498,6 +494,32 @@ a:hover {
     color: var(--clr-text-secondary);
     margin-bottom: 1rem;
     line-height: 1.4;
+}
+
+.contact-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    vertical-align: middle;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    display: inline-block;
+    overflow: visible;
+}
+
+.ref-item p {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.ref-item a {
+    display: flex;
+    align-items: center;
 }
 
 /* Footer */
